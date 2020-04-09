@@ -1,0 +1,195 @@
+# Hacker Packages
+
+## kali-tools-web
+Included modules:
+- `apache-users` -
+- `apache2` -
+- `arachni` -
+- `automater` -
+- `bbqsql` -
+- `beef-xss` -
+- `blindelephant` -
+- `burpsuite` -
+- `cadaver` -
+- `clusterd` -
+- `commix` -
+- `cookie-cadger` -
+- `cutycapt` -
+- `davtest` -
+- `deblaze` -
+- `default-mysql-server` -
+- `dirb` -
+- `dirbuster` -
+- `dnmap` -
+- `dotdotpwn` -
+- `eyewitness` -
+- `ferret-sidejack` -
+- `fimap` -
+- `ftester` -
+- `funkload` -
+- `golismero` -
+- `grabber` -
+- `hamster-sidejack` -
+- `heartleech` -
+- `hexorbase` -
+- `httprint` -
+- `httrack` -
+- `hydra` -
+- `hydra-gtk` -
+- `jboss-autopwn` -
+- `joomscan` -
+- `jsql-injection` -
+- `laudanum` -
+- `lbd` -
+- `maltego` -
+- `maltego-teeth` -
+- `medusa` -
+- `mitmproxy` -
+- `ncrack` -
+- `nikto` -
+- `nishang` -
+- `nmap` -
+- `oscanner` -
+- `owasp-mantra-ff` -
+- `padbuster` -
+- `paros` -
+- `patator` -
+- `php` -
+- `php-mysql` -
+- `plecost` -
+- `powerfuzzer` -
+- `proxychains` -
+- `proxystrike` -
+- `proxytunnel` -
+- `python-halberd` -
+- `redsocks` -
+- `sidguesser` -
+- `siege` -
+- `skipfish` -
+- `slowhttptest` -
+- `sqldict` -
+- `sqlitebrowser` -
+- `sqlmap` -
+- `sqlninja` -
+- `sqlsus` -
+- `sslcaudit` -
+- `ssldump` -
+- `sslh` -
+- `sslscan` -
+- `sslsniff` -
+- `sslsplit` -
+- `sslstrip` -
+- `sslyze` -
+- `stunnel4` -
+- `thc-ssl-dos` -
+- `tlssled` -
+- `tnscmd10g` -
+- `ua-tester` -
+- `uniscan` -
+- `wafw00f` -
+- `wapiti` -
+- `watobo` -
+- `webacoo` -
+- `webhandler` -
+- `webscarab` -
+- `webshells` -
+- `weevely` -
+- `wfuzz` -
+- `whatweb` -
+- `wireshark` -
+- `wpscan` -
+- `xsser` -
+- `zaproxy` -
+
+## kali-tools-passwords
+
+Included modules:
+
+- `kali-tools-gpu` - Bunch of modules
+    - `oclgausscrack` - The goal of the program is to crack the verification hash of the encrypted payload of the Gauss Virus
+    - `oclhashcat`:
+        - World's fastest password cracker
+        - World's first and only GPGPU-based rule engine
+        - Free
+        - Open-Source
+        - Multi-GPU (up to 128 GPUs)
+        - Multi-Hash (up to 100 million hashes at once)
+        - Multi-OS (Linux & Windows native binaries)
+        - Multi-Platform (OpenCL support)
+        - Multi-Algorithm (see below)
+        - Low resource utilization; you can still watch movies or play games while cracking
+        - Focuses on highly iterated modern hashes
+        - Focuses on dictionary-based attacks
+        - Supports distributed cracking
+        - Supports pause / resume while cracking
+        - Supports sessions
+        - Supports restore
+        - Supports reading words from file and stdin
+        - Supports hex-salt and hex-charset
+        - Built-in benchmarking system
+        - Integrated thermal watchdog
+        - 150+ Hash-types implemented with performance in mind
+        - ... and much more
+    - `pyrit` - Pyrit allows you to create massive databases of pre-computed  WPA/WPA2-PSK authentication phase in a space-time-tradeoff.
+By using the computational power of Multi-Core CPUs and other platforms through ATI-Stream,Nvidia CUDA and OpenCL,
+it is currently by far the most powerful attack against one of the world's most used security-protocols.
+    - `truecrack` - Password cracking for TrueCrypt© volume files.
+- `cewl` - Based on a discussion on PaulDotCom (episode 129) about creating custom word lists spidering a targets website and collecting unique words I decided to write CeWL, the Custom Word List generator. CeWL is a ruby app which spiders a given URL to a specified depth, optionally following external links, and returns a list of words which can then be used for password crackers such as John the Ripper.
+- `chntpw` - This is a utility to reset the password of any user that has a valid local account on your Windows system.
+- `cisco-auditing-tool` - None 
+- `cmospwd` - CmosPwd decrypts password stored in cmos used to access BIOS SETUP.
+- `crackle` - crackle exploits a flaw in the BLE pairing process that allows an
+attacker to guess or very quickly brute force the TK (Temporary Key).
+With the TK and other data collected from the pairing process, the STK
+(Short Term Key) and later the LTK (Long Term Key) can be collected.
+- `creddump` - creddump is a python tool to extract various credentials and secrets from
+Windows registry hives. It currently extracts:
+    * LM and NT hashes (SYSKEY protected)
+    * Cached domain passwords
+    * LSA secrets
+- `crunch` - Crunch is a wordlist generator where you can specify a standard character set or a character set you specify. crunch can generate all possible combinations and permutations.
+- `fcrackzip` - fcrackzip is a zip password cracker, similar to fzc, zipcrack and others.
+- `findmyhash` - None 
+- `freerdp2-x11` - FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. Enjoy the freedom of using your software wherever you want, the way you want it, in a world where interoperability can finally liberate your computing experience.
+- `gpp-decrypt` -
+- `hash-identifier` -
+- `hashcat` -
+- `hashcat-utils` -
+- `hashid` -
+- `hydra` -
+- `hydra-gtk` -
+- `john` -
+- `johnny` -
+- `keimpx` -
+- `maskprocessor` -
+- `medusa` -
+- `mimikatz` -
+- `ncrack` -
+- `oclhashcat` -
+- `onesixtyone` -
+- `ophcrack` -
+- `ophcrack-cli` -
+- `pack` -
+- `passing-the-hash` -
+- `patator` -
+- `pdfcrack` -
+- `pipal` -
+- `polenum` -
+- `pyrit` -
+- `rainbowcrack` -
+- `rarcrack` -
+- `rcracki-mt` -
+- `rsmangler` -
+- `samdump2` -
+- `seclists` -
+- `sipcrack` -
+- `sipvicious` -
+- `smbmap` -
+- `sqldict` -
+- `statsprocessor` -
+- `sucrack` -
+- `thc-pptp-bruter` -
+- `truecrack` -
+- `twofi` -
+- `wce` -
+- `wordlists` -
