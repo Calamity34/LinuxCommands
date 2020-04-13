@@ -18,4 +18,4 @@ and many others...\
 Examples:
 - `tar -x path/to/archive.tar` - this command unpacks the archive in the current folder.
 
-##### // TODO: Complete the `tar` command
+- `tar -x path/to/archive.tar -C path/to/unpack/dir` - this command unpacks the archive in the given directory.
